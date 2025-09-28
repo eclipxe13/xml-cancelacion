@@ -9,6 +9,14 @@ Usamos [Versionado Semántico 2.0.0](SEMVER.md) por lo que puedes usar esta libr
 Pueden aparecer cambios no liberados que se integran a la rama principal, pero no ameritan una nueva liberación de versión,
 aunque sí su incorporación en la rama principal de trabajo. Generalmente, se tratan de cambios en el desarrollo.
 
+### Mantenimiento 2025-09-27
+
+- Se corrige una prueba donde se estaba escribiendo el archivo esperado antes de su comparación.
+- Se actualizan las herramientas `phpcs` y `phpcbf` a la versión 4.0.0.
+- Se elimina la regla `Generic.Functions.CallTimePassByReference`.
+- Se moderniza la integración con SonarQube-Cloud.
+- Se actualiza `sonarqube-scan-action` a la versión 6.
+
 ### Versión 2.0.5 2025-06-19
 
 Se corrige un error al momento de generar una solicitud con múltiples folios.
